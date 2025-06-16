@@ -29,7 +29,7 @@ struct DetailsModel: Decodable {
         case description = "description"
         case email = "email"
         case phoneNumber = "phoneNumber"
-        case assress = "assress"
+        case address = "address"
     }
     
     init(from decoder: Decoder) throws {
